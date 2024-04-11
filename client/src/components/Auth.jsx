@@ -4,7 +4,7 @@ const Auth = () => {
     const [login, setLogin] = useState(true);
 
     return (
-        <div className='flex items-center justify-center w-full h-screen'>
+        <div className='flex items-center justify-center w-full h-screen font-Ubuntu'>
             <div className='flex w-1/2 shadow-lg shadow-gray-600/50 rounded-md overflow-hidden'>
                 <div className='flex flex-col w-1/2 bg-auth text-white p-5'>
                     <h2 className='text-[25px]'>INFORMATION</h2>
@@ -53,11 +53,11 @@ const Auth = () => {
                         <div className='flex flex-row'>
                             <div className='flex flex-col m-1'>
                                 <p className='text-gray-700 text-[12px]'>Password</p>
-                                <input className='border border-gray-300 outline-none w-full h-8 px-2' type="text" />
+                                <input className='border border-gray-300 outline-none w-full h-8 px-2' type="password" />
                             </div>
                             <div className='flex flex-col m-1'>
                                 <p className='text-gray-700 text-[12px]'>Confirm Password</p>
-                                <input className='border border-gray-300 outline-none w-full h-8 px-2' type="text" />
+                                <input className='border border-gray-300 outline-none w-full h-8 px-2' type="password" />
                             </div>
                         </div>
                         <div className='flex my-1 py-1 items-center'>
@@ -77,7 +77,7 @@ const Auth = () => {
                         </div>
                         <div className='flex flex-col m-1'>
                             <p className='text-gray-700 text-[12px]'>Password</p>
-                            <input className='border border-gray-300 outline-none w-full h-8 px-2' type="text" />
+                            <input className='border border-gray-300 outline-none w-full h-8 px-2' type="password" />
                         </div>
                         <button className='bg-auth w-fit text-white py-2 px-4 mx-1 my-2 rounded-sm'>Register</button>
                     </div>

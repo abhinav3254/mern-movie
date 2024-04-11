@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         auth: '#3786be'
+      },
+      fontFamily: {
+        Ubuntu: ["Ubuntu"]
       }
     },
   },
