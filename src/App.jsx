@@ -1,3 +1,4 @@
+import GsapFrom from "./gsap/GsapFrom"
 import GsapTo from "./gsap/GsapTo"
 
 const App = () => {
@@ -5,6 +6,7 @@ const App = () => {
   return (
     <div>
       <GsapTo />
+      <GsapFrom />
     </div>
   )
 }
